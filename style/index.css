@@ -1,0 +1,384 @@
+head{
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+main {
+  background-image: url("../images/img12.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+
+
+.nav {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav_logo {
+  font-family: 'Pacifico', cursive;
+}
+
+.link {
+  word-spacing: 30px;
+}
+
+.nav__link {
+  color: black;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  border-top: 2px solid #FF6033;
+}
+
+.maininfo {
+  font-size: 45px;
+}
+
+.info {
+  padding: 165px
+}
+
+.button{
+  background-color: #FF6033;
+  padding: 13px;
+  color: white;
+}
+
+.button:hover {
+  background-color: green;
+}
+
+.nav_scrol {
+  display: flex;
+  justify-content: center;
+}
+
+.scrol {
+  width: 20px;
+}
+
+.first {
+  background-color: #00B1B1;
+}
+
+.aboutus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.foto {
+  width: 550px;
+}
+
+.aboutus__info {
+  color: white;
+}
+
+.sectioninfo {
+  font-size: 70px;
+  color: white;
+}
+
+.second {
+  background-color: #70BFFF;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.cards {
+  padding: 55px;
+}
+
+.icon {
+  width: 40px;
+  padding-left: 30px;
+  border-left: 2px solid #9D9D9D;
+}
+
+
+
+.card {
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 15px;
+  padding-left: 50px;
+}
+
+.backgroundfoto {
+  width: 380px;
+  position: absolute;
+  padding-top: 5px;
+}
+
+.backgroundinfo {
+  position: relative;
+  font-size: 80px;
+  color: white;
+  padding-top: 90px;
+}
+
+.gallery {
+  background-color: #FFE92F;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.gallery__info {
+  text-align: center;
+}
+
+.informgallery {
+  font-size: 70px;
+}
+
+.blocks{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.image {
+  width: 710px;
+}
+
+.blockone {
+  padding-right: 20px;
+}
+
+.blocktwo {
+  display: flex;
+  flex-direction: column;
+}
+
+.blockthree {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.image1 {
+  width: 350px;
+}
+
+.image2 {
+  width: 520px;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
+
+.gallerybutton {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.colorbutton {
+  background-color: #5585A2;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.colorbutton:hover{
+  background-color: green;
+}
+
+.backgroundfototwo {
+  position: absolute;
+  width: 100%;
+}
+
+.subscribeinfo {
+  position: relative;
+  color: black;
+  padding: 100px;
+}
+
+.email {
+  width: 500px;
+}
+
+.email_main{
+  padding-right: 150px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.buttonandinput {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+}
+
+.buttontwo {
+  display: flex;
+  align-content: center;
+}
+
+.buttontwo_main {
+  background-color: #95B92B;
+  color: white;
+  padding: 20px;
+
+}
+
+.buttontwo_main:hover {
+  background-color: green;
+
+}
+
+.blog {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  text-align: center;
+  background-color: #B07BF7;
+  flex-direction: column;
+}
+
+
+.blogword {
+  font-size: 70px;
+}
+
+.bloginfo {
+  color: white
+}
+
+.cardfoto {
+  width: 300px;
+  height: 200px;
+}
+
+.cardstwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cardtwo {
+  padding: 30px;
+}
+
+.buttonthree {
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #F72A3B;
+}
+
+.buttonthree:hover {
+  background-color: green;
+}
+
+.curdsbutton {
+  padding-bottom: 30px;
+}
+
+.contact {
+  background-image: url("../images/img.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+
+.infocontact {
+  font-size: 70px;
+}
+
+.contactmeinfo {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 80px;
+}
+
+.inputinformation {
+}
+
+.input {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.inputinfo {
+  background-color: #00C4C4;
+  opacity: .6;
+  padding: 10px;
+  padding-right: 220px;
+  color: white;
+}
+
+.massege  {
+  display: flex;
+  align-items:  center;
+  text-align: left;
+  background-color: #00C4C4;
+  opacity: .6;
+}
+
+.massegeinput {
+  background-color: #00C4C4;
+  opacity: .6;
+  color: white;
+  padding: 115px;
+
+}
+
+.ourinfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactme {
+  text-align: left;
+}
+
+footer {
+  background-color: #262626;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.footer_logo {
+  font-family: 'Pacifico', cursive;
+}
+
+
+.colortext {
+  color: red;
+
+}
